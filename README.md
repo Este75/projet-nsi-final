@@ -87,7 +87,7 @@ if choix == 3:
         print(p7)
        
 
-# boucle forcourse = ['banane', 'salade', 'tomate', 'orange']'''
+# boucle forcourse = ['Vous, avez, fini']'''
 course = ["Vous avez fini !"]
 for elm in course:
     print(elm)
