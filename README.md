@@ -13,7 +13,7 @@ p2 = "Vous vous réveillez et regardez un peu partout, vous êtes encore dans vo
 p3 = "Vous attrapez une carabine et une sacoche avec des munitions. le vaisseau va bientôt s'effondrer. Il serait préférable de ne pas rester là."
 p4 = "Vous accourez vers la cuisine et rassemblez le plus de nourriture possible. Il serait préférable de ne pas rester là."
 p5 = "Vous vous dirigez vers les rangements qui se trouvent à côté de l’entrée de la cabine. Vous trouvez enfin le fameux kit de survie. Il serait préférable de ne pas rester là."
-p6 = "Vous décidez de monter sur un petite montagne. Une fois arrivé en haut, vous constatez l'immensité du désert qui vous entoure, vous scruter les horizons dans l’espoire de voir un signe de vie, malheureusement vous ne voyez rien. Votre voyage ne fait que commencer..."
+p6 = "Vous décidez de monter sur un petite montagne. Une fois arrivé en haut, vous constatez l'immensité du désert qui vous entoure, vous scruter les horizons dans l’espoire de voir un signe de vie, malheureusement vous ne voyez rien. Votre voyage ne fait que commencer... "
 p7 = "Vous descendez dans la grotte. Au bout d’une ou deux minutes à errer dans la grotte, soudain vous tombez sur une chose innatendu. Votre voyage ne fait que commencer..."
 
 
@@ -86,14 +86,13 @@ if choix == 3:
     if choix3 == 2:
         print(p7)
        
-# boucle forcourse = ['Vous avez fini !']
+
+# boucle forcourse = ['banane', 'salade', 'tomate', 'orange']'''
 course = ["Vous avez fini !"]
 for elm in course:
     print(elm)
     saisie = ''
-while saisie != 'q':
+while saisie != 'g':
    print('Fin Chapitre 1')
-   saisie = input('veuiller tapper la lettre q pour quitter : ')
+   saisie = input('veuiller tapper la lettre g pour quitter : ')
    print('le programme est terminer !')
-
-
