@@ -1,5 +1,4 @@
-# projet-nsi-final
-projet final, Esteban, Jilan, Yanis
+
 """
 #Projet de Esteban , Yanis, Jilan
 #Livre où vous êtes le héros
@@ -9,11 +8,11 @@ projet final, Esteban, Jilan, Yanis
 # Imports
 import sys
 
-p1 = "Vous êtes dans votre vaisseaux, un Megadeth -XW, une drôle de sensation vous submerge, vous sentez peu à peu vos forces se vider jusqu'à tomber dans les pommes."
-p2 = "Vous vous réveillez et regardez un peu partout, vous êtes encore dans votre vaisseaux, mais totalement détruit. Vous devriez trouver de quoi survivre."
+p1 = "Vous êtes dans votre vaisseau, un Megadeth -XW, une drôle de sensation vous submerge, vous sentez peu à peu vos forces se vider jusqu'à tomber dans les pommes."
+p2 = "Vous vous réveillez et regardez un peu partout, vous êtes encore dans votre vaisseau, mais totalement détruit. Vous devriez trouver de quoi survivre."
 p3 = "Vous attrapez une carabine et une sacoche avec des munitions. le vaisseau va bientôt s'effondrer. Il serait préférable de ne pas rester là."
 p4 = "Vous accourez vers la cuisine et rassemblez le plus de nourriture possible. Il serait préférable de ne pas rester là."
-p5 = "Vous vous dirigez vers les rangements qui se trouve à côté de l’entrée de la cabine. Vous trouvez enfin le fameux quite de survie. Il serait préférable de ne pas rester là."
+p5 = "Vous vous dirigez vers les rangements qui se trouvent à côté de l’entrée de la cabine. Vous trouvez enfin le fameux kit de survie. Il serait préférable de ne pas rester là."
 p6 = "Vous décidez de monter sur un petite montagne. Une fois arrivé en haut, vous constatez l'immensité du désert qui vous entoure, vous scruter les horizons dans l’espoire de voir un signe de vie, malheureusement vous ne voyez rien. Votre voyage ne fait que commencer..."
 p7 = "Vous descendez dans la grotte. Au bout d’une ou deux minutes à errer dans la grotte, soudain vous tombez sur une chose innatendu. Votre voyage ne fait que commencer..."
 
@@ -86,5 +85,15 @@ if choix == 3:
         print(p6)
     if choix3 == 2:
         print(p7)
+       
+# boucle forcourse = ['Vous avez fini !']
+course = ["Vous avez fini !"]
+for elm in course:
+    print(elm)
+    saisie = ''
+while saisie != 'q':
+   print('Fin Chapitre 1')
+   saisie = input('veuiller tapper la lettre q pour quitter : ')
+   print('le programme est terminer !')
 
 
